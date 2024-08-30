@@ -7,8 +7,6 @@ const columns: GridColDef[] = [
   {
     field: 'fullName',
     headerName: 'Full name',
-    description: 'This column has a value getter and is not sortable.',
-    sortable: false,
     width: 200,
     valueGetter: (_, row) => `${row.firstName || ''} ${row.lastName || ''}`,
   },
