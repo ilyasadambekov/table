@@ -15,12 +15,14 @@ const columns: GridColDef[] = [
     headerName: 'Phone',
     type: 'number',
     width: 200,
+    sortable: false,
   },
   {
     field: 'birthDate',
     headerName: 'Date of birth',
     type: 'number',
     width: 200,
+    sortable: false,
   },
 ];
 
